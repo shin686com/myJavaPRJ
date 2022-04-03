@@ -8,7 +8,7 @@ public class Exam03 {
         System.out.printf("숫자를 입력하세요 : ");
         int a = in.nextInt();
 
-        if ((a % 3 == 0) && (a % 5 == 0)) {
+        if ((a % 3 == 0) && (a % 5 == 0)) {//a%3==15
             System.out.printf("3과5의 배수입니다.");
         } else if (a % 3 == 0) {
             System.out.printf("3의 배수입니다.");
