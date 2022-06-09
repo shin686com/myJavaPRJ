@@ -4,13 +4,9 @@ public class Ex10_02 {
         try{
             aa[2]=100/0;
             aa[3]=100;
-        }catch (ArrayIndexOutOfBoundsException e){
-            System.out.println("배열 첨자가 배열 크기보다 커요 ~~");
+        }catch (Exception e){
             System.out.println("에러 메시지 : "+e);
-        }catch (ArithmeticException e){
-            System.out.println("0으로 나누는 등의 오류에요 ~~");
-            System.out.println("에러 메시지 : "+e);
-        }finally {
+        } finally {
             System.out.println("이 부분은 무조건 나와요 ~~");
         }
     }
